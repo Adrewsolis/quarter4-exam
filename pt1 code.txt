@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> login </title>
+</head>
+<body>
+<form action="action_page.php" method="POST">
+<div>
+<label for="fname">EMAIL:</label>
+<input type="text" id="fname" name="fname" placeholder="required" required>
+</div>
+<br>
+<div>
+<label for="lname">PASSWORD:</label>
+<input type="text" id="lname" name="lname" placeholder="required" required>
+</div>
+<br>
+<div>
+<label for="SEX">SEX:</label>
+<label>Mr.</label>
+<input type="radio" name="SEX" value="Mr.">
+<label>Ms.</label>
+<input type="radio" name="SEX" value="Ms.">
+</div>
+<br>
+<div>
+<input type="reset">
+</div>
+<br>
+<div>
+<input type="submit">
+</div>
+</form>
+</body>
+</html>
